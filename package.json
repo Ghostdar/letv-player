@@ -1,0 +1,25 @@
+{
+  "name": "vue-letv-player",
+  "version": "1.0.0",
+  "description": "乐视云播放器封装的vue组件",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghostdar/letv-player.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "乐视，Vue"
+  ],
+  "author": "nero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghostdar/letv-player/issues"
+  },
+  "homepage": "https://github.com/Ghostdar/letv-player#readme"
+}
