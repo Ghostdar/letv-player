@@ -1,6 +1,7 @@
 <template>
 <div id="app">
-  <letvPlayer
+  <letv-player
+    class="letv-player"
     :params="letvparam"
     @error="onError"
     @play="onPlay"
@@ -8,7 +9,7 @@
     @pause="onPause"
     @ended="onEnd"
     ref="player">
-  </letvPlayer>
+  </letv-player>
 </div>
 
 </template>
@@ -59,7 +60,7 @@ export default {
 </script>
 
 <style>
-#app .letv div{
+.letv-player {
   height:400px !important;
 }
 </style>
