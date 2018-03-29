@@ -15,6 +15,7 @@
 </template>
 
 <script>
+import letvPlayer form 'letvPlayer'
 export default {
   name: 'app',
   data () {
@@ -28,6 +29,9 @@ export default {
         'autoSize': '1'
       }
     }
+  },
+  components: {
+      letvPlayer
   },
   computed:{
     player() {
